@@ -1,0 +1,24 @@
+/* 标签样式 */
+.tags span {
+  font: 12px/22px 'Microsoft Yahei',Arial,Lucida Grande,Tahoma;
+  border: 1px #E3E0D9 solid;
+  display: inline-block;
+  height: 20px;
+  background: #FFF;
+  text-align: center;
+  padding: 2px 7px;
+  margin: 1px 4px;
+  cursor: pointer;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  overflow: hidden;
+  color: #989898;
+}
+.tags span:hover {
+  border-color: #00956d;
+}
+.tags span.active {
+  color: #FFF;
+  border-color: #00956d;
+  background-color: #00956d;
+}
