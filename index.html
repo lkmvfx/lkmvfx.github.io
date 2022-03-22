@@ -3,40 +3,6 @@
 <heda>
 	<meta charset="UTF-8">
 	<title>lkmvfx</title>
-    <link rel="stylesheet"
-         type="text/css" href="css/css.css" />
-    <script>
-	function clock() {
-        let hours = document.getElementById('hour');
-        let minutes = document.getElementById('min');
-        let seconds = document.getElementById('sec');
-
-        let h = new Date().getHours();
-        let m = new Date().getMinutes();
-        let s = new Date().getSeconds();
-
-        // 设置格式
-        if (h < 10){
-            hours.innerHTML = '0' + h;
-        }
-        else{
-            hours.innerHTML = h;
-        }
-        if (m < 10){
-            minutes.innerHTML='0' + m;
-        }
-        else{
-            minutes.innerHTML = m;
-        }
-        if (s < 10){
-            seconds.innerHTML='0' + s;
-        }
-        else {
-            seconds.innerHTML = s;
-        }
-    }
-    setInterval(clock,1000)      /*1s执行clock函数一次*/
-	</script>
 	</head>
 <body>
 	<center>
@@ -46,21 +12,5 @@
 		https://privadovpn.com/
 		</div>
 	</center>
-</body>
-<body>
-	<font color="#000000">
-	<center>AE插件</center>
-	<center>三维星球特效插件VideoCopilot ORB v1.0.2</center>
-	<center>https://www.videocopilot.net/orb/</center>
-	</font>
-	<br>
-	<div id="clock">
-        <h2>the time is now</h2>
-        <div id="time">
-            <div><span id="hour">00</span><span>Hours</span></div>
-            <div><span id="min">00</span><span>Minutes</span></div>
-            <div><span id="sec">00</span><span>Seconds</span></div>
-        </div>
-    </div>
 </body>
 </html>
